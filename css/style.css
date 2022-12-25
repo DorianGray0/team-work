@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -116,4 +116,44 @@ img {
   margin-bottom: 60px;
 }
 .hero-btn {
+}
+
+/* --------GIFTS */
+
+.gifts {
+  background-color: #ffffff;
+  padding-top: 96px;
+  padding-bottom: 137px;
+}
+.second-container {
+  width: 1170px;
+  margin: 0 auto;
+  outline: 1px solid tomato;
+}
+
+.gifts-title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+.gifts-text {
+  text-align: center;
+  margin-bottom: 57px;
+}
+
+.gifts-list {
+  display: flex;
+  gap: 30px;
+}
+
+.gifts-item-content {
+  padding: 24px;
+}
+
+.gifts-item {
+  background-color: #fafafa;
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.gifts-item-title {
+  margin-bottom: 74px;
 }
